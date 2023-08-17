@@ -34,8 +34,11 @@ end
 
 puts reverse(array_1)
 
-def turn(number)
- numbers.rotate
+ar_1 = [24,55,21,77,9]
+
+def turn(numbers)
+ numbers.rotate(3)
 end
 
+puts turn(ar_1)
 
