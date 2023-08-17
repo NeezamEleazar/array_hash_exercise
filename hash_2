@@ -1,4 +1,0 @@
-a = "welcome to hell"
-b =  string.new("hello world")
-
-puts a.upcase!
