@@ -1,2 +1,8 @@
-numbers = [23,55,66,82,93]
-puts numbers.max
+def sum(numbers)
+  numbers.inject(0,:+)
+end
+
+puts sum([33,44,55])
+
+
+
